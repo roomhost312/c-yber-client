@@ -50,7 +50,7 @@
 
 
     /* Countdown Timer - The Final Countdown */
-	$('#clock').countdown('2022/02/28 23:59:59') /* change here your "countdown to" date */
+	$('#clock').countdown('2022/03/21 23:59:59') /* change here your "countdown to" date */
 	.on('update.countdown', function(event) {
 		var format = '<span class="counter-number">%D<br><span class="timer-text">Days</span></span><span class="counter-number">%H<br><span class="timer-text">Hours</span></span><span class="counter-number">%M<br><span class="timer-text">Minutes</span></span>';
 		$(this).html(event.strftime(format));

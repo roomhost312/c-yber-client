@@ -2201,3 +2201,14 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width width 1200px */
+
+/* style for logo */
+        @media only screen and (min-width: 10px) and (max-width: 500px) {
+        #logo-img-respons {
+            height: 50px;
+            /* background-color: #24a0ed; */
+        }
+        }
+        #logo-img-respons{
+            height: 85px;
+        }
